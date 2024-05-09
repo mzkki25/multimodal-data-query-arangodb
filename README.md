@@ -4,7 +4,7 @@ Berikut langkah-langkah yang lebih terstruktur untuk mengatur ArangoDB dan menja
 
 ### 1. Instalasi Docker Desktop (khusus untuk pengguna Windows)
 1. Unduh dan instalasi Docker Desktop dari situs resminya.
-2. Pastikan Docker Desktop telah terinstal dan berjalan di sistem Anda.
+2. Pastikan Docker Desktop telah terinstal dan berjalan di sistem Teman-teman.
 
 ### 2. Menjalankan ArangoDB Container
 ```
@@ -50,7 +50,7 @@ Perintah ini akan mengimpor data dari file ke dalam koleksi yang sesuai di dalam
 
 ### 8. Menjalankan Query
 1. Jalankan beberapa query yang terdapat pada [link ini](https://version.helsinki.fi/chzhang/cikm-2020-hands-on-session-for-multi-model-queries/-/blob/master/hands-on.ipynb)
-2. Untuk soal nomor terakhir, berikut adalah query yang dapat Anda jalankan:
+2. Untuk soal nomor terakhir, berikut adalah query yang dapat Teman-teman jalankan:
   - Q1
     ```
     Let plist= Flatten(For order in Order return order.Orderline[*].productId)
@@ -117,4 +117,4 @@ Perintah ini akan mengimpor data dari file ke dalam koleksi yang sesuai di dalam
     
     return count(intersection(set1,set2))
     ```
-Anda dapat menyalin dan menjalankan masing-masing query pada editor query di ArangoDB untuk mendapatkan hasilnya. Pastikan Anda memahami tujuan dan output yang diharapkan dari setiap query sebelum menjalankannya. Anda dapat mempelajari dokumentasinya di [link ini](https://version.helsinki.fi/chzhang/cikm-2020-hands-on-session-for-multi-model-queries/-/blob/master/hands-on.ipynb)
+Teman-teman dapat menyalin dan menjalankan masing-masing query pada editor query di ArangoDB untuk mendapatkan hasilnya. Pastikan Teman-teman memahami tujuan dan output yang diharapkan dari setiap query sebelum menjalankannya. Teman-teman dapat mempelajari dokumentasinya di [link ini](https://version.helsinki.fi/chzhang/cikm-2020-hands-on-session-for-multi-model-queries/-/blob/master/hands-on.ipynb)
